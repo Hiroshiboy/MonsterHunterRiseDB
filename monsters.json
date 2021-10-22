@@ -1,0 +1,25 @@
+[
+    {
+        "monster_id" : 1,       
+        "monster_type" : "Fanged Beast",
+        "monster_name": "Bishaten", 
+        "threat_level" : "4",
+        "elements" : "None",
+        "ailments" : [
+            "Poison",
+            "Stun"
+        ],
+        "weaknesses" : [
+            "Ice"
+        ],
+        "resistances" : [
+            "Water",
+            "Dragon",
+            "Thunder"
+        ],
+        "habitats" : [
+            "Shrine Ruins",
+            "Flooded Forest"
+        ]
+    }
+]
