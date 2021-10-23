@@ -10,7 +10,7 @@ var docClient = new AWS.DynamoDB.DocumentClient();
 
 console.log("Importing Monsters into the DB. Just a second...");
 
-var allMonsters = JSON.parse(fs.readFileSync('monsters.json', 'utf8'));
+var allMonsters = JSON.parse(fs.readFileSync('./monsters.json', 'utf8'));
 allMonsters.forEach((monster) => {
     var params = {
         TableName: "MonsterHunterRiseDB",

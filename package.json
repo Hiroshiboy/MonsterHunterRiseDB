@@ -8,8 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "aws-sdk": "^2.1013.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
