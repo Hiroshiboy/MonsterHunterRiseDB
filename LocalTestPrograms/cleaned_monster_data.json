@@ -1,0 +1,556 @@
+[
+  {
+    "monster_name": "Bishaten",
+    "monster_type": "Fanged Beast",
+    "threat_level": "4\u2b50",
+    "elements": ["None"],
+    "ailments": ["Poison", "Stun"],
+    "weaknesses": ["Ice"],
+    "resistances": ["Water", "Dragon", "Thunder"],
+    "habitats": ["Shrine Ruins", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Somnacanth",
+    "monster_type": "Leviathans",
+    "threat_level": "5\u2b50",
+    "elements": "None",
+    "ailments": ["Blastblight", "Sleep", "Stun"],
+    "weaknesses": ["Thunder", "Fire"],
+    "resistances": ["Water (Immune)", "Ice (Immune)", "Dragon (Immune)"],
+    "habitats": ["Frost Islands", "Flooded Forest", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Goss Harag",
+    "monster_type": "Fanged Beast",
+    "threat_level": "7\u2b50",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "weaknesses": ["Fire"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "habitats": ["Frost Islands"]
+  },
+
+  {
+    "monster_name": "Lagombi",
+    "monster_type": "Fanged Beast",
+    "threat_level": "1\u2b50",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "weaknesses": ["Fire"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "habitats": ["Frost Islands"]
+  },
+
+  {
+    "monster_name": "Royal Ludroth",
+    "monster_type": "Leviathans",
+    "threat_level": "3\u2b50",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "weaknesses": ["Fire"],
+    "resistances": ["Water (Immune)", "Dragon"],
+    "habitats": ["Flooded Forest", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Khezu",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "2\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Fire"],
+    "resistances": ["Thunder", "Water", "Ice", "Dragon"],
+    "habitats": ["Frost Islands", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Magnamalo",
+    "monster_type": "Fanged Wyvern",
+    "threat_level": "7\u2b50",
+    "elements": ["None"],
+    "ailments": ["Hellfireblight"],
+    "weaknesses": ["Water"],
+    "resistances": ["Fire", "Dragon", "Ice"],
+    "habitats": ["Shrine Ruins", "Frost Islands", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Great Baggi",
+    "monster_type": "Bird Wyvern",
+    "threat_level": "1\u2b50",
+    "elements": ["None"],
+    "ailments": ["Sleep"],
+    "weaknesses": ["Fire", "Water", "Thunder"],
+    "resistances": ["Ice", "Dragon"],
+    "habitats": ["Frost Islands"]
+  },
+
+  {
+    "monster_name": "Great Wroggi",
+    "monster_type": "Bird Wyvern",
+    "threat_level": "2\u2b50",
+    "elements": ["None"],
+    "ailments": ["Poison"],
+    "weaknesses": ["Ice", "Water"],
+    "resistances": ["Fire", "Dragon", "Thunder"],
+    "habitats": ["Shrine Ruins", "Flooded Forest", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Mizutsune",
+    "monster_type": "Leviathans",
+    "threat_level": "6\u2b50",
+    "elements": ["Water"],
+    "ailments": ["Waterblight", "Bubble"],
+    "weaknesses": ["Thunder", "Dragon", "Ice"],
+    "resistances": ["Water (Immune)", "Fire"],
+    "habitats": ["Shrine Ruins", "Frost Islands", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Rathalos",
+    "monster_type": "Flying Wyverns",
+    "threat_level": "6\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "weaknesses": ["Dragon", "Thunder"],
+    "resistances": ["Fire (Immune)"],
+    "habitats": ["Shrine Ruins", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Great Izuchi",
+    "monster_type": "Bird Wyvern",
+    "threat_level": "1\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Thunder", "Water"],
+    "resistances": ["Dragon"],
+    "habitats": ["Shrine Ruins", "Frost Islands"]
+  },
+
+  {
+    "monster_name": "Tigrex",
+    "monster_type": "Flying Wyverns",
+    "threat_level": "7\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Thunder", "Dragon"],
+    "resistances": ["Fire", "Ice"],
+    "habitats": ["Frost Islands", "Sandy Plains", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Barioth",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "5\u2b50",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "weaknesses": ["Fire", "Thunder"],
+    "resistances": ["Ice", "Water", "Dragon"],
+    "habitats": ["Frost Islands"]
+  },
+
+  {
+    "monster_name": "Arzuros",
+    "monster_type": "Fanged Beast",
+    "threat_level": "1\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Fire", "Ice", "Thunder"],
+    "resistances": ["Dragon", "Water"],
+    "habitats": ["Shrine Ruins", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Aknosom",
+    "monster_type": "Bird Wyvern",
+    "threat_level": "2\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "weaknesses": ["Thunder", "Water", "Ice"],
+    "resistances": ["Fire", "Dragon"],
+    "habitats": ["Shrine Ruins", "Frost Islands"]
+  },
+
+  {
+    "monster_name": "Rathian",
+    "monster_type": "Flying Wyverns",
+    "threat_level": "4\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "weaknesses": ["Dragon", "Thunder"],
+    "resistances": ["Fire (Immune)"],
+    "habitats": [
+      "Shrine Ruins",
+      "Sandy Plains",
+      "Flooded Forest",
+      "Lava Caverns"
+    ]
+  },
+
+  {
+    "monster_name": "Rakna-Kadaki",
+    "monster_type": "Temnocerans",
+    "threat_level": "7\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "weaknesses": ["Ice"],
+    "resistances": ["Fire (Immune)", "Thunder (Immune)", "Dragon (Immune)"],
+    "habitats": ["Sandy Plains", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Almudron",
+    "monster_type": "Leviathan",
+    "threat_level": "7\u2b50",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "weaknesses": ["Fire", "Ice"],
+    "resistances": ["Water"],
+    "habitats": ["Shrine Ruins", "Sandy Plains", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Rajang",
+    "monster_type": "Fanged Beasts",
+    "threat_level": "8\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Ice"],
+    "resistances": [
+      "Fire (Immune)",
+      "Thunder (Immune)",
+      "Dragon (Immune)",
+      "Water"
+    ],
+    "habitats": [
+      "Shrine Ruins",
+      "Frost Islands",
+      "Sandy Plains",
+      "Flooded Forest",
+      "Lava Caverns"
+    ]
+  },
+
+  {
+    "monster_name": "Basarios",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "3\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison", "Sleep"],
+    "weaknesses": ["Dragon"],
+    "resistances": ["None"],
+    "habitats": ["Sandy Plains", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Volvidon",
+    "monster_type": "Fanged Beasts",
+    "threat_level": "4\u2b50",
+    "elements": ["None"],
+    "ailments": ["Paralysis"],
+    "weaknesses": ["Water", "Ice"],
+    "resistances": ["Fire (Immune)", "Dragon (Immune)"],
+    "habitats": ["Sandy Plains", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Diablos",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "7\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Ice", "Water", "Dragon"],
+    "resistances": ["Fire"],
+    "habitats": ["Sandy Plains"]
+  },
+
+  {
+    "monster_name": "Kulu-Ya-Ku",
+    "monster_type": "Bird Wyvern",
+    "threat_level": "2\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Water"],
+    "resistances": ["None"],
+    "habitats": [
+      "Shrine Ruins",
+      "Sandy Ruins",
+      "Flooded Forest",
+      "Lava Caverns"
+    ]
+  },
+
+  {
+    "monster_name": "Jyuratodus",
+    "monster_type": "Piscine Wyvern",
+    "threat_level": "4\u2b50",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "weaknesses": ["Thunder"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "habitats": ["Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Tobi-Kadachi",
+    "monster_type": "Fanged Wyverns",
+    "threat_level": "5\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Water", "Fire", "Ice"],
+    "resistances": ["Thunder (Immune)", "Dragon"],
+    "habitats": ["Shrine Ruins", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Pukei-Pukei",
+    "monster_type": "Bird Wyverns",
+    "threat_level": "4\u2b50",
+    "elements": ["None"],
+    "ailments": ["Poison"],
+    "weaknesses": ["Paralysis", "Sleep", "Blast ("],
+    "resistances": ["Water", " (Immune)", "Dragon"],
+    "habitats": ["Shrine Ruins", "Sandy Plains", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Nargacuga",
+    "monster_type": "Flying Wyverns",
+    "threat_level": "6\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Thunder", "Fire"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "habitats": ["Shrine Ruins", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Barroth",
+    "monster_type": "Brute Wyvern",
+    "threat_level": "3\u2b50",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "weaknesses": ["Fire", "Ice"],
+    "resistances": ["Water", "Thunder"],
+    "habitats": ["Sandy Plains"]
+  },
+
+  {
+    "monster_name": "Apex Arzuros",
+    "monster_type": "Fanged Beast",
+    "threat_level": "8\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Ice", "Fire"],
+    "resistances": ["Water", "Dragon"],
+    "habitats": ["Shrine Ruins", "Flooded Forest", "Red Stronghold"]
+  },
+
+  {
+    "monster_name": "Anjanath",
+    "monster_type": "Brute Wyvern",
+    "threat_level": "6\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "weaknesses": ["Water", "Ice"],
+    "resistances": ["Fire", "Dragon"],
+    "habitats": [
+      "Shrine Ruins",
+      "Sandy Plains",
+      "Flooded Forest",
+      "Lava Caverns"
+    ]
+  },
+
+  {
+    "monster_name": "Zinogre",
+    "monster_type": "Fanged Wyverns",
+    "threat_level": "6\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Ice", "Water"],
+    "resistances": ["Thunder (Immune)", "Dragon"],
+    "habitats": ["Shrine Ruins", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Wind Serpent Ibushi",
+    "monster_type": "Elder Dragons",
+    "threat_level": "9\u2b50",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "weaknesses": ["Dragon", "Fire", "Water"],
+    "resistances": ["Thunder", "Ice"],
+    "habitats": ["Rampage"]
+  },
+
+  {
+    "monster_name": "Apex Mizutsune",
+    "monster_type": "Leviathan",
+    "threat_level": "9\u2b50",
+    "elements": ["Water"],
+    "ailments": ["Waterblight", "Bubble"],
+    "weaknesses": ["Thunder", "Dragon"],
+    "resistances": ["Water", "Fire"],
+    "habitats": [
+      "Shrine Ruins",
+      "Frost Islands",
+      "Flooded Forest",
+      "Infernal Springs",
+      "Red Stronghold"
+    ]
+  },
+
+  {
+    "monster_name": "Apex Rathalos",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "9\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "weaknesses": ["Dragon", "Thunder"],
+    "resistances": ["Fire", "Water", "Ice"],
+    "habitats": [
+      "Shrine Ruins",
+      "Lava Caverns",
+      "Infernal Springs",
+      "Red Stronghold"
+    ]
+  },
+
+  {
+    "monster_name": "Thunder Serpent Narwa",
+    "monster_type": "Elder Dragons",
+    "threat_level": "10\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Dragon", "Ice"],
+    "resistances": ["Fire", "Water", "Thunder (Immune)"],
+    "habitats": ["Coral Palace"]
+  },
+
+  {
+    "monster_name": "Chameleos",
+    "monster_type": "Elder Dragon",
+    "threat_level": "8\u2b50",
+    "elements": ["None"],
+    "ailments": ["Venom"],
+    "weaknesses": ["Fire", "Dragon"],
+    "resistances": ["Ice", "Water"],
+    "habitats": ["Shrine Ruins", "Flooded Forest"]
+  },
+
+  {
+    "monster_name": "Teostra",
+    "monster_type": "Elder Dragon",
+    "threat_level": "8\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Blastblight"],
+    "weaknesses": ["Water", "Ice"],
+    "resistances": ["Fire (Immune)", "Thunder", "Dragon"],
+    "habitats": ["Sandy Plains", "Lava Caverns"]
+  },
+
+  {
+    "monster_name": "Apex Rathian",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "8\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "weaknesses": ["Dragon", "Thunder"],
+    "resistances": ["Fire"],
+    "habitats": [
+      "Shrine Ruins",
+      "Sandy Plains",
+      "Flooded Forest",
+      "Lava Caverns",
+      "Red Stronghold"
+    ]
+  },
+
+  {
+    "monster_name": "Kushala Daora",
+    "monster_type": "Elder Dragon",
+    "threat_level": "8\u2b50",
+    "elements": ["None"],
+    "ailments": ["Iceblight", "Dragonblight"],
+    "weaknesses": ["Thunder"],
+    "resistances": ["Ice", "Water"],
+    "habitats": ["Frost Islands", "Sandy Plains"]
+  },
+
+  {
+    "monster_name": "Bazelgeuse",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "8\u2b50",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "weaknesses": ["None"],
+    "resistances": ["Fire", "Water"],
+    "habitats": [
+      "Shrine Ruins",
+      "Frost Islands ",
+      "Sandy Plains ",
+      "Flooded Forest ",
+      "Lava Caverns"
+    ]
+  },
+
+  {
+    "monster_name": "Narwa the Allmother",
+    "monster_type": "Elder Dragon",
+    "threat_level": "10\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Dragon", "Ice", "Water", "Fire"],
+    "resistances": ["Thunder"],
+    "habitats": ["Coral Palace"]
+  },
+
+  {
+    "monster_name": "Apex Zinogre",
+    "monster_type": "Fanged Wyvern",
+    "threat_level": "10\u2b50",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "weaknesses": ["Ice"],
+    "resistances": ["Thunder", "Fire", "Dragon"],
+    "habitats": [
+      "Shrine Ruins",
+      "Flooded Forest",
+      "Infernal Springs",
+      "Red Stronghold"
+    ]
+  },
+
+  {
+    "monster_name": "Crimson Glow Valstrax",
+    "monster_type": "Elder Dragon",
+    "threat_level": "10\u2b50",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "weaknesses": ["Fire", "Water", "Thunder", "Ice"],
+    "resistances": ["Dragon"],
+    "habitats": [
+      "Shrine Ruins",
+      "Frost Islands",
+      "Sandy Plains",
+      "Flooded Forest",
+      "Lava Caverns"
+    ]
+  },
+
+  {
+    "monster_name": "Apex Diablos",
+    "monster_type": "Flying Wyvern",
+    "threat_level": "10\u2b50",
+    "elements": ["None"],
+    "ailments": ["None"],
+    "weaknesses": ["Ice", "Water", "Dragon"],
+    "resistances": ["Fire"],
+    "habitats": ["Sandy Plains", "Red Stronghold"]
+  }
+]

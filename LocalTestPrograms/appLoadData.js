@@ -3,21 +3,20 @@ var fs = require("fs");
 
 AWS.config.update({
     region: "us-east-2",
-    endpoint: "http://localhost:8000"
+    endpoint: "https://dynamodb.us-east-2.amazonaws.com"
 });
 
 var docClient = new AWS.DynamoDB.DocumentClient();
 
 console.log("Importing Monsters into the DB. Just a second...");
 
-var allMonsters = JSON.parse(fs.readFileSync('./monsters.json', 'utf8'));
+var allMonsters = JSON.parse(fs.readFileSync('./cleaned_monster_data.json', 'utf8'));
 allMonsters.forEach((monster) => {
     var params = {
         TableName: "MonsterHunterRiseDB",
         Item: {
-            "monster_id" : monster.monster_id,
-            "monster_type" : monster.monster_type,
             "monster_name": monster.monster_name,
+            "monster_type" : monster.monster_type,
             "threat_level" : monster.threat_level,
             "elements" : monster.elements,
             "ailments" : monster.ailments,

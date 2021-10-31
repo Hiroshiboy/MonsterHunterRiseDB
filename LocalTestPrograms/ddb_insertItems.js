@@ -2,7 +2,7 @@ var AWS = require('aws-sdk');
 
 AWS.config.update({
     region: 'us-east-2',
-    endpoint: 'http://localhost:8000'
+    endpoint: "https://dynamodb.us-east-2.amazonaws.com"
 });
 
 var docClient = new AWS.DynamoDB.DocumentClient();
@@ -10,9 +10,8 @@ var table = "MonsterHunterRiseDB";
 var params = {
         TableName: table,
         Item: {
-            'monster_id' : 2,
-            'monster_type' : "Bird Wyvern",
             'monster_name' : "Great Wroggi",
+            'monster_type' : "Bird Wyvern",
             'threat_level' : 2,
             'elements' : "None",
             'ailments' : 'Poison',
@@ -25,7 +24,7 @@ var params = {
                 "Dragon",
                 "Thunder"
             ],
-            'locations' : [
+            'habitats' : [
                 "Shrine Ruins",
                 "Flooded Forest",
                 "Lava Caverns"
