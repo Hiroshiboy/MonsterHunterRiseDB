@@ -2,8 +2,8 @@
 var AWS = require("aws-sdk");
 
 AWS.config.update({
-  region: "us-west-2",
-  endpoint: "http://localhost:8000"
+  region: "us-east-2",
+  endpoint: "https://dynamodb.us-east-2.amazonaws.com"
 });
 
 var docClient = new AWS.DynamoDB.DocumentClient();
@@ -14,12 +14,12 @@ console.log("Querying for monsters with an Id of 1.");
 
 var params = {
     TableName : "MonsterHunterRiseDB",
-    KeyConditionExpression: "#mi = :mi",
+    KeyConditionExpression: "#mn = :mn",
     ExpressionAttributeNames:{
-        "#mi": "monster_id"
+        "#mn": "monster_name"
     },
     ExpressionAttributeValues: {
-        ":mi": 1
+        ":mn": "Bishaten"
     }
 };
 
@@ -29,7 +29,7 @@ docClient.query(params, function(err, data) {
     } else {
         console.log("Query succeeded.");
         data.Items.forEach(function(item) {
-            console.log(" -", item.monster_id+ ": " + item.monster_name);
+            console.log(" -", "Monster Name" + ": " + item.monster_name);
         });
     }
 });
