@@ -1,3 +1,4 @@
+//This file is used in my API for AWS's API Gateway Service.
 var AWS = require("aws-sdk");
 
 var dynamodb = new AWS.DynamoDB({region: "us-east-2", apiVersion: "2012-08-10"})

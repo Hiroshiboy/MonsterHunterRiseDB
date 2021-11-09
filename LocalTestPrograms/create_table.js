@@ -9,11 +9,11 @@ var dynamodb = new AWS.DynamoDB();
 var params = {
     TableName : "MonsterHunterRiseDB",
     KeySchema: [
-        { AttributeName: "monster_id", KeyType:"HASH"},
+        { AttributeName: "monster_name", KeyType:"HASH"},
         { AttributeName: "monster_type", KeyType:"RANGE"}
     ],
     AttributeDefinitions: [
-        { AttributeName: "monster_id", AttributeType: "N"},
+        { AttributeName: "monster_name", AttributeType: "N"},
         { AttributeName: "monster_type", AttributeType: "S"},
     ],
     ProvisionedThroughput: {

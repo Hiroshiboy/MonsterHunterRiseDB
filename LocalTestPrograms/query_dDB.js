@@ -1,35 +1,29 @@
-
 var AWS = require("aws-sdk");
 
-AWS.config.update({
+var dynamodb = new AWS.DynamoDB({
   region: "us-east-2",
-  endpoint: "https://dynamodb.us-east-2.amazonaws.com"
+  apiVersion: "2012-08-10",
 });
 
-var docClient = new AWS.DynamoDB.DocumentClient();
-
-
-//Misunderstood how sort key and partition key worked but get how it works now
-console.log("Querying for monsters with an Id of 1.");
-
-var params = {
-    TableName : "MonsterHunterRiseDB",
-    KeyConditionExpression: "#mn = :mn",
-    ExpressionAttributeNames:{
-        "#mn": "monster_name"
-    },
+  const params = {
+    TableName: "MonsterHunterRiseDB",
+    IndexName: "monster_type-index",
+    KeyConditionExpression: "monster_type = :mt",
     ExpressionAttributeValues: {
-        ":mn": "Bishaten"
-    }
-};
-
-docClient.query(params, function(err, data) {
+      ":mt": {"S":"Fanged Beast"},
+    },
+    ProjectionExpression: 'monster_name, monster_type',
+  };
+  dynamodb.query(params, function (err, data) {
     if (err) {
-        console.error("Unable to query. Error:", JSON.stringify(err, null, 2));
+      console.log("Error", err);
     } else {
-        console.log("Query succeeded.");
-        data.Items.forEach(function(item) {
-            console.log(" -", "Monster Name" + ": " + item.monster_name);
-        });
+      console.log("Success", data);
+      data.Items.forEach(function (element, index, array) {
+        console.log(
+            "printing",
+            element.monster_name.S + " (" + element.monster_type.S + ")"
+        );
+      });
     }
-});
+  });
